@@ -6,20 +6,20 @@ import java.util.Locale;
 
 public class Note {
     private static int noteCounter = 1;
-    int id;
+    int Id;
     String title;
     String content;
     String timeAndDate;
 
     public Note(String title, String content) {
-        this.id = noteCounter++;
+        this.Id = noteCounter++;
         this.title = title;
         this.content = content;
         this.timeAndDate = new SimpleDateFormat("HH:mm dd.MM.yyyy", Locale.getDefault()).format(Calendar.getInstance().getTime());
     }
 
     public int getId() {
-        return id;
+        return Id;
     }
 
     public String getTitle() {
