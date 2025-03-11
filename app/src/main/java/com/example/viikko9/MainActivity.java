@@ -12,8 +12,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
     }
 
     public void switchToAddNote(View view) {
@@ -25,6 +23,4 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ListNotesActivity.class);
         startActivity(intent);
     }
-
-
 }

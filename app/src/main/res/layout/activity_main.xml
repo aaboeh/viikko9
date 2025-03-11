@@ -13,14 +13,15 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:text="Muistiinpano sovellus v1"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/AddNoteActivityButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="128dp"
         android:onClick="switchToAddNote"
@@ -30,8 +31,8 @@
 
     <Button
         android:id="@+id/ListNotesActivityButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
         android:layout_marginTop="128dp"
         android:layout_marginEnd="24dp"
         android:onClick="switchToNoteList"
