@@ -1,5 +1,6 @@
 package com.example.viikko9;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,5 +25,10 @@ public class AddNoteActivity extends AppCompatActivity {
         String content = contentEdit.getText().toString();
 
         NoteStorage.getInstance().addNote(new Note(title, content));
+    }
+
+    public void switchToMain(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 }

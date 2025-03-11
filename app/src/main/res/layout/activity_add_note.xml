@@ -41,4 +41,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ContentEdit" />
+
+    <Button
+        android:id="@+id/BackToMainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="switchToMain"
+        android:text="Palaa päävalikkoon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddNoteButton" />
 </androidx.constraintlayout.widget.ConstraintLayout>
